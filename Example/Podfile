@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NicooExtension_Example' do
+  pod 'NicooExtension', :path => '../'
+
+  target 'NicooExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
